@@ -18,4 +18,8 @@ while (color != 'red'):
     else:
         print('Sorry, try again.')
 
+
 print('You guessed it in {} tries!'.format(count))
+
+#The count is there to show the user how many times they tried the question. Each time it goes through the loop it adds one to count
+#This line tells the user how many tries it took to guess "red"

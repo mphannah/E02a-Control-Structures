@@ -10,3 +10,6 @@ if (color.lower().strip() == 'red'):
     print('Correct!')
 else:
     print('Sorry, try again.')
+
+#I would guess that .strip() is stripping red from any addition spaces that are unnecesarry 
+#There wasn't any way I could write red that resulted in the program printing "Sorry, try again."

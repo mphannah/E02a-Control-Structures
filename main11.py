@@ -3,7 +3,7 @@ import sys, random
 
 assert sys.version_info >= (3,7), "This script requires at least Python 3.7"
 
-def choose_color(last_color):
+def choose_color(last_color):                                               #Lines 6-11 creates a function that picks a random color
     colors = ['red','orange','yellow','green','blue','violet','purple']
     c = random.choice(colors)
     while c == last_color:

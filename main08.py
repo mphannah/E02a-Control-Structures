@@ -15,3 +15,6 @@ while (color != 'red'):
         print('Close!')
     else:
         print('Sorry, try again.')
+
+#Lines 10-17 are indented because a while loop was added and you have to indent all that you want inside the loop
+#That would cause an infinite loop because there is no way to change color so it can never = "red"

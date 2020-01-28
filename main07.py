@@ -13,3 +13,5 @@ elif (color == 'pink'):
     print('Close!')
 else:
     print('Sorry, try again.')
+
+#Line 12 is saying also if color is "pink" print "Close!"
